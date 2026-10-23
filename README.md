@@ -18,6 +18,8 @@
 
 Every project uses **synthetic or simulated data only**: no employer data of any kind. Each is a public re-implementation of a personal prototype and has not been deployed at a plant. Each README explains how the results were validated and where the method stops working.
 
+Every repo uses the same layout (`data/`, `src/`, `models/`, `notebooks/`, `reports/`, `main.py`), with unit and API tests, a walkthrough notebook, a FastAPI endpoint and GitHub Actions CI.
+
 *Built with Claude Code; design, requirements and validation by Raja.*
 
 Contact: instruraja@outlook.com
