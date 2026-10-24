@@ -24,4 +24,4 @@ Every repo uses the same layout (`data/`, `src/`, `models/`, `notebooks/`, `repo
 
 *Built with Claude Code; design, requirements and validation by Raja.*
 
-Contact: instruraja@outlook.com
+Contact: instruraja@yahoo.com
