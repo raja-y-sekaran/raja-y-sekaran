@@ -15,8 +15,9 @@
 | [valve-limit-switch-alerts](https://github.com/rajapune-create/valve-limit-switch-alerts) | Operator alerts from valve limit-switch timing: slow-stroke trends, sticking, failure to move, chattering switches | 20 / 20 faults found, slow strokes flagged weeks before the DCS limit, a fifth of the alarms |
 | [maintenance-log-nlp-pdm](https://github.com/rajapune-create/maintenance-log-nlp-pdm) | NLP over work orders, rounds and incident reports to flag assets likely to break down in 30 days | 93 of 97 warned breakdowns flagged, median 24 days ahead; 7x better than random |
 | [mtbf-maintenance-scheduler](https://github.com/rajapune-create/mtbf-maintenance-scheduler) | MTBF and Weibull analysis with suspensions, turned into a dated replacement plan only where it pays | Fleet cost 38% below current practice, within 1.3% of the optimum |
+| [seeq-usecase-research-pipeline](https://github.com/rajapune-create/seeq-usecase-research-pipeline) | Tracks Seeq's public use cases through research notebooks to step-by-step build walkthroughs, and audits every Formula expression's "confirmed in the docs" label | 78 walkthroughs, 262 labelled expressions; independent audit agrees on 95% |
 
-Every project uses **synthetic or simulated data only**: no employer data of any kind. Each is a public re-implementation of a personal prototype and has not been deployed at a plant. Each README explains how the results were validated and where the method stops working.
+Every project uses **synthetic, simulated or public data only**: no employer data of any kind. Each is a public re-implementation of a personal prototype and has not been deployed at a plant. Each README explains how the results were validated and where the method stops working.
 
 Every repo uses the same layout (`data/`, `src/`, `models/`, `notebooks/`, `reports/`, `main.py`), with unit and API tests, a walkthrough notebook, a FastAPI endpoint and GitHub Actions CI.
 
